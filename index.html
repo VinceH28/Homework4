@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <style>
+    .container {
+      position: relative;
+    }
+    
+    .topright {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      font-size: 18px;
+    }
+    
+    img { 
+      width: 100%;
+      height: auto;
+      opacity: 0.3;
+    }
+
+    .imgoverlap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    }
+    </style>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Coding Assesment Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <section class="container">
+      <img src="https://github.com/VincentH28/Homework4/blob/main/assesment%20background.png?raw=true" alt="lightbulbs" width="1000" height="300">
+      <div class="topright"> 
+        <h3 class="time">Timer: </h3> 
+      </div>
+      <div class= "imgoverlap" 
+           id="main">
+      </div>
+
+      <script src= "timerscript.js"></script>
+    </section>
+
+    
+
+  </body>
+  </html>
